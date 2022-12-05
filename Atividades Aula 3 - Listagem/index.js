@@ -45,7 +45,7 @@ function cadastrarDados() {
     //condição de registro
     baseDeAutomoveis.push(carro);
   } else {
-    alert(`PLACA EXISTENTE`);
+    alert(`PLACA JÁ EXISTENTE`);
   }
   mostrarMenu();
 }
